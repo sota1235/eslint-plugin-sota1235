@@ -1,11 +1,6 @@
-# eslint-plugin-no-document-cookie
+# eslint-plugin-sota1235
 
-[![npm version](https://badge.fury.io/js/eslint-plugin-no-document-cookie.svg)](https://badge.fury.io/js/eslint-plugin-no-document-cookie)
-[![Build Status](https://travis-ci.org/sota1235/eslint-plugin-no-document-cookie.svg?branch=master)](https://travis-ci.org/sota1235/eslint-plugin-no-document-cookie)
-[![dependencies Status](https://david-dm.org/sota1235/eslint-plugin-no-document-cookie/status.svg)](https://david-dm.org/sota1235/eslint-plugin-no-document-cookie)
-[![devDependencies Status](https://david-dm.org/sota1235/eslint-plugin-no-document-cookie/dev-status.svg)](https://david-dm.org/sota1235/eslint-plugin-no-document-cookie?type=dev)
-
-find document.cookie
+My own rules for [ESLint](http://eslint.org/).
 
 ## Installation
 
@@ -15,22 +10,22 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-no-document-cookie`:
+Next, install `eslint-plugin-sota1235`:
 
 ```
-$ npm install eslint-plugin-no-document-cookie --save-dev
+$ npm install eslint-plugin-sota1235 --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-document-cookie` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-sota1235` globally.
 
 ## Usage
 
-Add `no-document-cookie` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `sota1235` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "no-document-cookie"
+        "sota1235"
     ]
 }
 ```
@@ -41,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-document-cookie/rule-name": 2
+        "sota1235/rule-name": "error"
     }
 }
 ```
