@@ -1,5 +1,7 @@
 # eslint-plugin-sota1235
 
+[![Build Status](https://travis-ci.org/sota1235/eslint-config-sota1235.svg?branch=master)](https://travis-ci.org/sota1235/eslint-config-sota1235)
+
 My own rules for [ESLint](http://eslint.org/).
 
 ## Installation
